@@ -1,0 +1,43 @@
+
+.uni-bg-red{
+	width: 95%;
+	margin: auto;
+	background-color: red;
+}
+.uni-bg-green{
+	width: 95%;
+	margin: auto;
+	background-color: green;
+}
+.uni-bg-blue{
+	width: 95%;
+	margin: auto;
+	background-color: blue;
+}
+.uni-margin-wrap {
+	width:100%;
+	/* margin:0 30upx; */
+}
+.swiper {
+	height: 300rpx;
+	margin:0 30rpx;
+}
+.swiper-item {
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+}
+.swiper-list {
+	margin-top: 40rpx;
+	margin-bottom: 0;
+}
+.uni-common-mt{
+	margin-top:60rpx;
+	position:relative;
+}
+.info {
+	position: absolute;
+	right:20rpx;
+}
+

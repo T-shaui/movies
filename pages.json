@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/home/home",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        },
+		{
+			"path" : "pages/mine/mine",
+			"style" : {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/movie_list_detail/movie_list_detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/movie_list/movie_list",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "black",
+		"selectedColor": "#4473DC",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/img/search_gray.png",
+			"selectedIconPath": "static/img/search_blue.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/img/my_gray.png",
+			"selectedIconPath": "static/img/my_blue.png",
+			"text": "我的"
+		}],
+		"midButton": {
+			"width": "80px",
+			"height": "50px",
+			"text": "文字",
+			"iconPath": "static/image/midButton_iconPath.png",
+			"iconWidth": "24px",
+			"backgroundImage": "static/image/midButton_backgroundImage.png"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "电影",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

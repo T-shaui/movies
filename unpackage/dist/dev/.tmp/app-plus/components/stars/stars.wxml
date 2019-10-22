@@ -1,0 +1,1 @@
+<view class="star-box"><block wx:for="{{itemClasses}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="{{['star-item',item]}}"></view></block><block wx:if="{{showNum}}"><view class="recommended-item-rate">{{''+score+''}}</view></block></view>

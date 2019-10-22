@@ -1,0 +1,1 @@
+<view><scroll-view scroll-y="true"><block wx:for="{{$root.l0}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><image class="list-img" src="{{item.m0}}" lazy-load></image></view></block></scroll-view></view>

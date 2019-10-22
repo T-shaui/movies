@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"list-img{ width: ",[0,200],"; height: ",[0,300],"; }\n",],undefined,{path:"./pages/movie_list/movie_list.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/movie_list/movie_list.wxml') } }));
