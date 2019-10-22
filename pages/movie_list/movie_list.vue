@@ -23,6 +23,7 @@
 			this.getNowPlaying()
 			console.log('refresh');
 		},
+		//方法
 		methods: {
 			getImages(_url){
 			    if( _url !== undefined ){
